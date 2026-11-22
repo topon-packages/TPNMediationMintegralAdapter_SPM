@@ -12,13 +12,13 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/topon-packages/TPNiOS_SPM.git", from: "6.5.60"),
-        .package(url: "https://github.com/Mintegral-official/MintegralAdSDK-Swift-Package.git", exact: "8.1.6")
+        .package(url: "https://github.com/Mintegral-official/MintegralAdSDK-Swift-Package.git", exact: "8.1.9")
     ],
     targets: [
         .binaryTarget(
             name: "AnyThinkMintegralAdapter",
-            url: "https://topon-sdk-release.oss-accelerate.aliyuncs.com/TPN_Release/iosnetwork_2/AnyThinkMintegralAdapter/8.1.6.2.9/AnyThinkMintegralAdapter-8.1.6.2.9.zip",
-            checksum: "58040ddaa6e2922b6d9f7c9ed6e1674de3f83e09464930c1b812e908f5f2dda7"
+            url: "https://topon-sdk-release.oss-accelerate.aliyuncs.com/TPN_Release/iosnetwork_2/AnyThinkMintegralAdapter/80109.2.10/AnyThinkMintegralAdapter-80109.2.10.zip",
+            checksum: "ad00a1c8054a0194a30720662c46646f5e81613c49575bdce831a59776f92d13"
         ),
         .target(
             name: "TPNMediationMintegralAdapterTarget",
